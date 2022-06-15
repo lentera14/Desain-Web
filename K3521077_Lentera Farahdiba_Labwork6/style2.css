@@ -1,0 +1,51 @@
+body{
+	background: #a9a9a9;
+	padding: 0px;
+	margin: 0px;
+}
+.header{
+	padding: 0px 20px;
+	margin: 0px;
+	background: #dcdcdc;
+	color: #f4f4f4;
+	box-shadow: 0 10px 15px rgba(0,0,0,0.2);
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	z-index: 100;
+}
+.header .foto{
+	width: 200px;
+	height: 200px;
+	display: flex;
+	align-items: center;
+
+}
+img{
+	width: 50%;
+	display: inline-block;
+}
+.header .menu{
+	position: sticky;
+	top: 0;
+	margin: 0;
+	overflow: hidden;
+}
+.header .menu ul{
+	list-style: none;
+}
+.header .menu ul li{
+	position: relative;
+	float: left;
+}
+.header .menu ul li a{
+	padding: 15px;
+	font-size: 18px;
+	letter-spacing: 1px;
+	color: black;
+	display: block;
+}
+.header .menu ul li a:hover{
+	background: #d3d3d3;
+	color: black;
+}

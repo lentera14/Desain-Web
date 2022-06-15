@@ -1,0 +1,31 @@
+body{
+	margin: 0; 
+	padding: 0;
+	background-image: url('images/wall.jpg');
+}
+
+.trans{
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.10);
+}
+
+.features{
+	padding: 15px;
+	position: relative;
+}
+.feature-tittle{
+	padding: 12px;
+	font-size: 20px;
+	margin-top: 10px;
+	font-weight: 650;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+}
+
+#copy{
+	font-size: 14px;
+	text-align: center;
+	font-weight: 400;
+	text-transform: lowercase;
+}

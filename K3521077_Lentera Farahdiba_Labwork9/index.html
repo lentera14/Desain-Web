@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<title>Praktikum Bootstrap</title>
+	
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+	<nav class="navbar navbar-expand-md">
+		<a class="navbar-brand" href="#">
+    	  <img src="images/logo.jpg" alt="" height="35" class="d-inline-block align-text-top">
+    	  Cadillac V16
+    	</a>
+		
+		<button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#main-navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		
+		<div class="collapse navbar-collapse" id="main-navigation">
+			<ul class="navbar-nav">
+				<li class="nav-item">
+					<a class="nav-link" href="#">Home</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">About</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Contact</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+
+	<header class="header container-fluid">
+		<div class="overlay"></div>
+
+		<div class="description">
+			<h1>Welcome to Cadillac V16 Website</h1>
+			<p>The Cadillac V-16 (also known as the Cadillac Sixteen) was Cadillac's top-of-the-line model from its January 1930 launch until 1940. The V16 powered car was a first in the United States, both extremely expensive and exclusive, with every chassis being custom-finished to order. Only 4,076 were constructed in its 11-year run, with the majority built in its debut year before the Great Depression took strong hold. The onset of World War II reduced the sales, resulting in its demise</p>
+			<button class = "btn btn-outline-secondary btn-lg"> tell me more!</button>
+		</div>
+	</header>
+
+	<div class="container features">
+		<div class="row">
+			<div class="col-lg-4 col-md-4 col-sm-12">
+				<h3 class="feature-title">1930 Cadillac V-16 Roadster</h3>
+				<img src="images/roadster.jpg">
+				<p>
+					Manufacturer:	Cadillac (General Motors);
+					Production:	1930–1940
+					Assembly:	Detroit, Michigan;
+					Designer:	Harley Earl.
+				</p>
+			</div>
+			
+			<div class="col-lg-4 col-md-4 col-sm-12">
+				<h3 class="feature-title">1930 Cadillac V-16 Dual Cowl Sports Phaeton</h3>
+				<img src="images/dualcowl.jpg">
+				<p>
+					Model years:	1930–1937;
+					Platform:	Series 90: D-body
+					Related:	Cadillac Series 370/85, Cadillac Series 355, Cadillac Series 75
+				</p>
+			</div>
+			
+			<div class="col-lg-4 col-md-4 col-sm-12">
+				<h3 class="feature-title">Get in Touch!</h3>
+				<div class="form-group">
+					<input type="text" class="form-control" placeholder="Name" name="">
+				</div>
+				<div class="form-group">
+					<input type="email" class="form-control" placeholder="Email Address" name="email">
+				</div>
+				<div class="form-group">
+					<textarea class="form-control" rows="4"></textarea>
+				</div>
+				<input type="submit" class="btn btn-secondary btn-block" value="Send" name="">
+			</div>
+		</div> 
+	</div>
+
+	<footer class="page-footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8 col-md-8 col-sm-12">
+					<h6 class="text-uppercase font-weightbold">Additional Information</h6>
+					<p>The Cadillac Motor Car Division is a division of the American automobile manufacturer General Motors Company that designs and builds luxury vehicles. Its major markets are the United States, Canada, and China. Cadillac models are distributed in 34 additional markets worldwide. Cadillac automobiles are at the top of the luxury field within the United States. In 2019, Cadillac sold 390,458 vehicles worldwide, a record for the brand.</p>
+					<p>Cadillac is among the first automotive brands in the world, fourth in the United States only to Autocar Company (1897) and fellow GM marques Oldsmobile (1897) and Buick (1899). It was named after Antoine de la Mothe Cadillac, who founded Detroit, Michigan. The Cadillac crest is based on his coat of arms.</p>
+				</div>
+				
+				<div class="col-lg-4 col-md-4 col-sm-12">
+					<h6 class="text-uppercase font-weightbold">Contact</h6>
+					<p>30009 Van Dyke Avenue, Warren, MI 48093, Amerika Serikat
+					<br/>cadillacv16@cadillac.com
+					<br/>+1331/977-7000
+					<br/>+1342/976-6000</p>
+				</div>
+			</div>
+		</div>
+		<div class="footer-copyright text-center">© 2019 Copyright: Cadillacs Crop</div>
+	</footer>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+</body>
+</html>

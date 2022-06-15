@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Latihan 5</title>
+</head>
+<body>
+	<center>
+		<h2>Formulir Pendaftaran Anggota</h2>
+		<h2>UPT Perpustakaan UNS</h2>
+		<hr>
+	</center>
+	<form>
+		<table align="center">
+		<tr>
+			<td><b>NIM</b></td>
+			<td><input type="text" name="nim" placeholder="NIM" size="20" required=""></td>
+		</tr>
+		<tr>
+			<td><b>Nama</b></td>
+			<td><input type="text" name="nama" placeholder="Nama Lengkap" size="50" required=""></td>
+		</tr>
+		<tr>
+			<td><b>Program</b></td>
+			<td><select name="program">
+				<option>Pilih Program</option>
+				<option>DIII</option>
+				<option>DIV</option>
+				<option>S1 Reguler</option>
+				<option>Perpanjangan S1</option>
+				<option>S2</option>
+				<option>S3</option>
+			</select></td>
+		</tr>
+		<tr>
+			<td><b>Fakultas</b></td>
+			<td><select name="fakultas">
+				<option>Pilih Fakultas</option>
+				<option>Fakultas Hukum</option>
+				<option>Fakultas Ekonomi dan Bisnis</option>
+				<option>Fakultas Ilmu Sosial dan Politik</option>
+				<option>Fakultas Kedokteran</option>
+				<option>Fakultas Pertanian</option>
+				<option>Fakultas Teknik</option>
+				<option>Fakultas Keguruan dan Ilmu Pendidikan</option>
+				<option>Fakultas Matematika dan Ilmu Pengetahuan Alam</option>
+				<option>Fakultas Seni Rupa dan Desain</option>
+				<option>Fakultas Keolahragaan</option>
+				<option>Pascasarjana</option>
+			</select></td>
+		</tr>
+		<tr>
+			<td><b>Prodi</b></td>
+			<td><input type="text" name="prodi" placeholder="Prodi" size="50" required=""></td>
+		</tr>
+		<tr>
+			<td><b>Alamat Rumah</b></td>
+			<td><textarea name="alamat" placeholder="Alamat Rumah" required=""></textarea>
+			</td>
+		</tr>
+		<tr>
+			<td><b>No. HP</b></td>
+			<td><input type="text" name="no.hp" placeholder="Nomor HP" required=""></td>
+		</tr>
+		<tr>
+			<td><b>Email</b></td>
+			<td><input type="text" name="email" placeholder="Alamat Email @student.uns.ac.id" size="50" required=""></td>
+		</tr>
+		<tr>
+			<td><b>Tempat & Tanggal Lahir</b></td>
+			<td><input type="text" name="tempatlahir" placeholder="Tempat Lahir" size="20" required=""></td>
+		</tr>
+		<tr>
+			<td><b></b></td>
+			<td><input type="date" name="tanggallahir" required=""></td>
+		</tr>
+		<tr>
+			<td><b>Jenis Kelamin</b></td>
+			<td><input type="radio" name="jeniskelamin">Laki-Laki</td>
+		</tr>
+		<tr>
+			<td><b></b></td>
+			<td><input type="radio" name="jeniskelamin">Perempuan</td>
+		</tr>
+		<tr>
+			<td><b>Nama Ibu</b></td>
+			<td><input type="text" name="namaibu" placeholder="Nama Ibu" size="50" required=""></td>
+		</tr>
+		<tr>
+			<td><b>Tanggal Bergabung</b></td>
+			<td><input type="date" name="tanggalbergabung" required=""></td>
+		</tr>
+		<tr>
+			<td><input type="submit" value="Kirim" name="anggota"></td>
+		</tr>
+		<tr>
+			<td><input type="submit" value="Ulang" name="ulang"></td>
+		</tr>
+		</table>
+	</form>
+</body>
+</html>
