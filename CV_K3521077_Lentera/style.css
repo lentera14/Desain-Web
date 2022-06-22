@@ -1,0 +1,271 @@
+body{
+	background: #f4f4f4;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+}
+
+.container{
+	position: relative;
+	width: 100%;
+	max-width: 1000px;
+	min-height: 1000px;
+	background: #dcdcdc;
+	margin: 30px;
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	box-shadow: 0 20px 20px rgba(0,0,0,0.2);
+	border-radius: 15px;
+}
+
+.container .left{
+	position: relative;
+	background: #404466;
+	padding: 30px;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+
+.top{
+	position: relative;
+	color: #f4f4f4;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-bottom: 30px;
+	border-bottom: 2px solid #f4f4f4;
+}
+.pict{
+	position: relative;
+	width: 150px;
+	height: 200px;
+	border-radius: 20%;
+	overflow: hidden;
+}
+img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.top .me{
+	padding-top: 30px;
+	color: #f4f4f4;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: helvetica;
+}
+.top .nim{
+	padding-top: 5px;
+	color: #f4f4f4;
+	font-size: 15px;
+	font-weight: bold;
+	font-family: helvetica;
+}
+
+.desc{
+	position: relative;
+	padding: 5px;
+	color: #f4f4f4;
+	font-size: 13px;
+	font-family: helvetica;
+	letter-spacing: 1px;
+	font-weight: 500;
+}
+
+.tittle{
+	position: relative;
+	padding-top: 25px;
+	font-family: helvetica;
+	font-size: 18px;
+	word-spacing: 3px;
+	letter-spacing: 2px;
+	font-weight: bold;
+}
+
+.skill{
+	position: relative;
+	padding: 10px 5px;
+	color: #f4f4f4;
+	font-size: 13px;
+	font-family: helvetica;
+	letter-spacing: 1px;
+}
+.list{
+	padding: 15px 0px 5px;
+}
+.persentase{
+	position: relative;
+	display: block;
+	background: #2d3047;
+	margin: 5px 5px 5px 0px;
+	width: 100%;
+	height: 7px;
+}
+.persentase div{
+	position: absolute;
+	background: #f4f4f4;
+	height: 100%;
+	top: 0;
+	left: 0;
+}
+
+.container .right{
+	position: relative;
+	background: #ffff;
+	padding: 30px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+.tittle2{
+	padding-top: 15px;
+	font-family: helvetica;
+	font-size: 18px;
+	word-spacing: 3px;
+	letter-spacing: 2px;
+	font-weight: bold;
+}
+
+ul li{
+	list-style: none;
+}
+
+.biodata{
+	padding: 5px;
+	color: #404466;
+	font-size: 13px;
+	font-family: helvetica;
+	letter-spacing: 1px;
+}
+.me2{
+	padding-top: 10px;
+	font-size: 13px;
+	font-family: helvetica;
+	font-style: italic;
+	font-weight: 600;
+}
+.ans{
+	font-size: 14px;
+	font-family: helvetica;
+}
+
+.hobby{
+	padding: 5px;
+	color: #404466;
+	font-size: 13px;
+	font-family: helvetica;
+	letter-spacing: 1px;
+	font-weight: 600;
+}
+.logo{
+	padding: 5px;
+	display: inline-block;
+	width: 15px;
+	font-size: 18px;
+	color: #404466;
+}
+.hobby ul{
+	display: grid;
+	grid-template-columns: repeat(4,1fr);
+}
+
+.education{
+	padding: 5px;
+	color: #404466;
+	font-size: 13px;
+	font-family: helvetica;
+	letter-spacing: 1px;
+}
+.edubox{
+	display: flex;
+	flex-direction: row;
+	margin: 5px 0px 5px 40px;
+}
+.year{
+	min-width: 120px;
+	padding: 5px;
+	font-size: 13px;
+	font-family: helvetica;
+	font-weight: 600;
+}
+.name{
+	padding: 5px;
+	font-size: 13px;
+	font-family: helvetica;
+	font-weight: 600;
+}
+
+.organisation{
+	padding: 5px;
+	color: #404466;
+	font-size: 13px;
+	font-family: helvetica;
+	letter-spacing: 1px;
+}
+.orgbox{
+	display: flex;
+	flex-direction: row;
+	margin: 5px 0px 5px 40px;
+}
+.year2{
+	min-width: 200px;
+	padding: 5px;
+	font-size: 13px;
+	font-family: helvetica;
+	font-weight: 600;
+}
+.org{
+	padding-top: 5px;
+	font-size: 13px;
+	font-family: helvetica;
+	letter-spacing: 1px;
+	font-weight: 500;
+}
+
+.contact{
+	padding: 5px;
+	color: #404466;
+	font-size: 13px;
+	font-family: helvetica;
+	letter-spacing: 1px;
+}
+.mine{
+	padding: 5px 0px 0px 15px;
+	color: #404466;
+	font-size: 13px;
+	font-family: helvetica;
+	letter-spacing: 1px;
+}
+
+@media only screen and (max-width: 1000px){
+	.container{
+		margin: 15px;
+		grid-template-columns: repeat(1,1fr);
+	}
+
+	.hobby ul{
+		display: grid;
+		grid-template-columns: repeat(2,1fr);
+	}
+}
+
+@media only screen and (max-width: 600px){
+	.edubox{
+		flex-direction: column;
+		margin: 5px 0px 10px 40px;
+	}
+
+	.orgbox{
+		flex-direction: column;
+		margin: 5px 0px 10px 40px;
+	}
+
+	.hobby ul{
+		display: grid;
+		grid-template-columns: repeat(1,1fr);
+	}
+}
